@@ -7,14 +7,17 @@ timeZone = "America/New_York"
 # post pagination
 paginate = 5 # see https://gohugo.io/extras/pagination/
 # post excerpt
-summaryLength = 50 # see https://gohugo.io/content-management/excerpts/
-# google analytics
-googleAnalytics = "UA-123456-78" # example: UA-123456-78, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en
+summaryLength = 50 # see https://gohugo.io/content-management/excerpts/analytics/answer/1008080?hl=en
 # disqus short name
 disqusShortname = "themefisher-template" # get your shortname form here : https://disqus.com
 # disable language
 disableLanguages = []        # desable language from here
 capitalizeListTitles = false # capitalize list titles
+
+########################### Services #############################
+[services]
+[services.googleAnalytics]
+ID = 'G-MEASUREMENT_ID' # see https://gohugo.io/templates/internal/#configure-google-analytics
 
 
 ############################# Modules ############################

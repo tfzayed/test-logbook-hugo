@@ -102,7 +102,7 @@
     },
     "headline": "{{.Title}}",
     "description": "{{.Params.description}}",
-    "image": "{{.Params.images | relURL}}",
+    "image": "{{range first 1 .Params.images}}{{. | relURL}}{{end}}",
     "author": {
       "@type": "Person",
       "name": "{{.Params.author}}"
